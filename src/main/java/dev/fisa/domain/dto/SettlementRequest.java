@@ -1,5 +1,7 @@
 package dev.fisa.domain.dto;
 
-public record SettlementRequest() {
+import java.time.LocalDate;
 
-}
+public record SettlementRequest(
+        LocalDate settlementDate
+) {}
