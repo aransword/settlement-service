@@ -1,5 +1,8 @@
 package dev.fisa.domain.dto;
 
-public record AdjustRequest() {
+import java.math.BigDecimal;
 
-}
+public record AdjustRequest(
+        String bankCode,
+        BigDecimal netAmount // +면 입금, -면 출금
+) {}
