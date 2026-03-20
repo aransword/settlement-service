@@ -6,6 +6,7 @@ import dev.fisa.dto.TransactionDto;
 import dev.fisa.entity.Settlement;
 import dev.fisa.entity.BokAccount;
 import dev.fisa.entity.SettlementDetail;
+import dev.fisa.entity.SettlementStatus;
 import dev.fisa.repository.BokAccountRepository;
 import dev.fisa.repository.SettlementDetailRepository;
 import dev.fisa.repository.SettlementRepository;
